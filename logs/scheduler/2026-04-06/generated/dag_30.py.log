@@ -1,0 +1,22 @@
+[2026-04-07T05:16:41.475+0530] {processor.py:186} INFO - Started process (PID=11484) to work on /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:16:41.476+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_30.py for tasks to queue
+[2026-04-07T05:16:41.479+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.478+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:16:41.491+0530] {processor.py:925} INFO - DAG(s) 'dag_30' retrieved from /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:16:41.586+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.586+0530] {override.py:1911} INFO - Created Permission View: can read on DAG:dag_30
+[2026-04-07T05:16:41.596+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.595+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG:dag_30
+[2026-04-07T05:16:41.602+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.602+0530] {override.py:1911} INFO - Created Permission View: can edit on DAG:dag_30
+[2026-04-07T05:16:41.612+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.612+0530] {override.py:1911} INFO - Created Permission View: can read on DAG Run:dag_30
+[2026-04-07T05:16:41.619+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.618+0530] {override.py:1911} INFO - Created Permission View: can create on DAG Run:dag_30
+[2026-04-07T05:16:41.625+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.625+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:dag_30
+[2026-04-07T05:16:41.631+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.631+0530] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:dag_30
+[2026-04-07T05:16:41.632+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.631+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:16:41.646+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.646+0530] {dag.py:3262} INFO - Creating ORM DAG for dag_30
+[2026-04-07T05:16:41.647+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:16:41.646+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_30 to None, run_after=None
+[2026-04-07T05:16:41.667+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_30.py took 0.200 seconds
+[2026-04-07T05:18:34.244+0530] {processor.py:186} INFO - Started process (PID=12120) to work on /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:18:34.245+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_30.py for tasks to queue
+[2026-04-07T05:18:34.247+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:18:34.247+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:18:34.253+0530] {processor.py:925} INFO - DAG(s) 'dag_30' retrieved from /home/ubantu/airflow/dags/generated/dag_30.py
+[2026-04-07T05:18:34.266+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:18:34.266+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:18:34.278+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:18:34.277+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_30 to None, run_after=None
+[2026-04-07T05:18:34.294+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_30.py took 0.055 seconds

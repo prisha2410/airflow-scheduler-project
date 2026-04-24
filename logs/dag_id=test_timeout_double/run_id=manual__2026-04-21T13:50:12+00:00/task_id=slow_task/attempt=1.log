@@ -1,0 +1,28 @@
+[2026-04-21T19:20:15.648+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-21T19:20:15.658+0530] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_timeout_double.slow_task manual__2026-04-21T13:50:12+00:00 [queued]>
+[2026-04-21T19:20:15.662+0530] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_timeout_double.slow_task manual__2026-04-21T13:50:12+00:00 [queued]>
+[2026-04-21T19:20:15.663+0530] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-04-21T19:20:15.673+0530] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): slow_task> on 2026-04-21 13:50:12+00:00
+[2026-04-21T19:20:15.677+0530] {standard_task_runner.py:72} INFO - Started process 8222 to run task
+[2026-04-21T19:20:15.680+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'test_timeout_double', 'slow_task', 'manual__2026-04-21T13:50:12+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/test_timeout_double.py', '--cfg-path', '/tmp/tmpcldzld9x']
+[2026-04-21T19:20:15.681+0530] {standard_task_runner.py:105} INFO - Job 66: Subtask slow_task
+[2026-04-21T19:20:15.710+0530] {task_command.py:467} INFO - Running <TaskInstance: test_timeout_double.slow_task manual__2026-04-21T13:50:12+00:00 [running]> on host ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx
+[2026-04-21T19:20:15.754+0530] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_timeout_double' AIRFLOW_CTX_TASK_ID='slow_task' AIRFLOW_CTX_EXECUTION_DATE='2026-04-21T13:50:12+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-21T13:50:12+00:00'
+[2026-04-21T19:20:15.755+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-21T19:20:15.755+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-21T19:20:15.755+0530] {logging_mixin.py:190} INFO - Current task name:slow_task state:running start_date:2026-04-21 13:50:15.658585+00:00
+[2026-04-21T19:20:15.755+0530] {logging_mixin.py:190} INFO - Dag name:test_timeout_double and current dag run status:running
+[2026-04-21T19:20:15.755+0530] {taskinstance.py:732} INFO - ::endgroup::
+[2026-04-21T19:20:15.756+0530] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-04-21T19:20:15.756+0530] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 60']
+[2026-04-21T19:20:15.764+0530] {subprocess.py:99} INFO - Output:
+[2026-04-21T19:21:15.767+0530] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-04-21T19:21:15.890+0530] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-04-21T19:21:15.891+0530] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=test_timeout_double, task_id=slow_task, run_id=manual__2026-04-21T13:50:12+00:00, execution_date=20260421T135012, start_date=20260421T135015, end_date=20260421T135115
+[2026-04-21T19:21:15.904+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-21T19:21:15.905+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-21T19:21:15.905+0530] {logging_mixin.py:190} INFO - Dag name:test_timeout_double queued_at:2026-04-21 13:50:12.214320+00:00
+[2026-04-21T19:21:15.905+0530] {logging_mixin.py:190} INFO - Task hostname:ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx operator:BashOperator
+[2026-04-21T19:21:15.918+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-21T19:21:15.926+0530] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-21T19:21:15.926+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

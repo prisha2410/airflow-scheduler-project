@@ -1,0 +1,154 @@
+[2026-04-21T18:45:58.641+0530] {processor.py:186} INFO - Started process (PID=5413) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:45:58.642+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:45:58.645+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:58.645+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:45:58.656+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:45:58.741+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:58.741+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:45:58.758+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:58.758+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:12:00+00:00, run_after=2026-04-21 13:14:00+00:00
+[2026-04-21T18:45:58.776+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2026-04-21T18:47:54.954+0530] {processor.py:186} INFO - Started process (PID=5614) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:47:54.955+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:47:54.958+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:54.957+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:47:54.972+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:47:54.992+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:54.992+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:47:55.012+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:55.012+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:14:00+00:00, run_after=2026-04-21 13:16:00+00:00
+[2026-04-21T18:47:55.029+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.084 seconds
+[2026-04-21T18:49:21.300+0530] {processor.py:186} INFO - Started process (PID=5722) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:49:21.301+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:49:21.304+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:21.304+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:49:21.316+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:49:21.444+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:21.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:49:21.461+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:21.461+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:16:00+00:00, run_after=2026-04-21 13:18:00+00:00
+[2026-04-21T18:49:21.477+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.186 seconds
+[2026-04-21T18:50:40.944+0530] {processor.py:186} INFO - Started process (PID=5842) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:50:40.945+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:50:40.948+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:40.947+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:50:40.960+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:50:40.977+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:40.976+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:50:40.998+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:40.998+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:18:00+00:00, run_after=2026-04-21 13:20:00+00:00
+[2026-04-21T18:50:41.014+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.076 seconds
+[2026-04-21T18:52:01.390+0530] {processor.py:186} INFO - Started process (PID=5939) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:52:01.392+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:52:01.394+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:01.394+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:52:01.405+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:52:01.419+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:01.419+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:52:01.439+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:01.439+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:20:00+00:00, run_after=2026-04-21 13:22:00+00:00
+[2026-04-21T18:52:01.455+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.070 seconds
+[2026-04-21T18:53:19.932+0530] {processor.py:186} INFO - Started process (PID=6058) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:53:19.933+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:53:19.936+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:19.936+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:53:19.947+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:53:19.963+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:19.963+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:53:19.986+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:19.986+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:20:00+00:00, run_after=2026-04-21 13:22:00+00:00
+[2026-04-21T18:53:20.005+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.080 seconds
+[2026-04-21T18:54:38.074+0530] {processor.py:186} INFO - Started process (PID=6167) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:54:38.075+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:54:38.079+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:38.079+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:54:38.096+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:54:38.120+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:38.120+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:54:38.149+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:38.148+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:22:00+00:00, run_after=2026-04-21 13:24:00+00:00
+[2026-04-21T18:54:38.167+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds
+[2026-04-21T18:55:58.158+0530] {processor.py:186} INFO - Started process (PID=6279) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:55:58.159+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:55:58.162+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:58.162+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:55:58.171+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:55:58.187+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:58.186+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:58.208+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:58.208+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:22:00+00:00, run_after=2026-04-21 13:24:00+00:00
+[2026-04-21T18:55:58.226+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2026-04-21T18:57:16.719+0530] {processor.py:186} INFO - Started process (PID=6388) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:57:16.721+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T18:57:16.724+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:16.723+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:57:16.734+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T18:57:16.749+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:16.749+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:57:16.770+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:16.770+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:24:00+00:00, run_after=2026-04-21 13:26:00+00:00
+[2026-04-21T18:57:16.786+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2026-04-21T19:00:54.722+0530] {processor.py:186} INFO - Started process (PID=6525) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:00:54.723+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:00:54.725+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:54.724+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:00:54.733+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:00:54.751+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:54.751+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:00:54.769+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:54.769+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:28:00+00:00, run_after=2026-04-21 13:30:00+00:00
+[2026-04-21T19:00:54.785+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2026-04-21T19:02:45.823+0530] {processor.py:186} INFO - Started process (PID=6664) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:02:45.824+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:02:45.825+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:45.825+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:02:45.834+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:02:45.849+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:45.848+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:02:45.869+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:45.869+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:30:00+00:00, run_after=2026-04-21 13:32:00+00:00
+[2026-04-21T19:02:45.887+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.070 seconds
+[2026-04-21T19:05:28.928+0530] {processor.py:186} INFO - Started process (PID=6822) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:05:28.929+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:05:28.931+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:28.930+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:05:28.940+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:05:28.957+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:28.957+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:28.974+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:28.974+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:32:00+00:00, run_after=2026-04-21 13:34:00+00:00
+[2026-04-21T19:05:28.990+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2026-04-21T19:07:18.304+0530] {processor.py:186} INFO - Started process (PID=6979) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:07:18.305+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:07:18.306+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.305+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:07:18.314+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:07:18.329+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.329+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:07:18.348+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.348+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:34:00+00:00, run_after=2026-04-21 13:36:00+00:00
+[2026-04-21T19:07:18.364+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2026-04-21T19:08:35.902+0530] {processor.py:186} INFO - Started process (PID=7084) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:08:35.903+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:08:35.905+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:35.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:08:35.914+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:08:35.929+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:35.929+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:08:35.948+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:35.948+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:36:00+00:00, run_after=2026-04-21 13:38:00+00:00
+[2026-04-21T19:08:35.966+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.071 seconds
+[2026-04-21T19:09:54.690+0530] {processor.py:186} INFO - Started process (PID=7183) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:09:54.691+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:09:54.693+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.692+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:09:54.701+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:09:54.715+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.715+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:54.734+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.734+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:36:00+00:00, run_after=2026-04-21 13:38:00+00:00
+[2026-04-21T19:09:54.749+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.065 seconds
+[2026-04-21T19:11:12.088+0530] {processor.py:186} INFO - Started process (PID=7289) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:11:12.089+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:11:12.090+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:12.090+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:11:12.101+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:11:12.115+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:12.115+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:11:12.132+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:12.132+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:38:00+00:00, run_after=2026-04-21 13:40:00+00:00
+[2026-04-21T19:11:12.148+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2026-04-21T19:12:31.201+0530] {processor.py:186} INFO - Started process (PID=7382) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:12:31.202+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:12:31.203+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.203+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:12:31.212+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:12:31.227+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.227+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:12:31.244+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.244+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:40:00+00:00, run_after=2026-04-21 13:42:00+00:00
+[2026-04-21T19:12:31.261+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.067 seconds
+[2026-04-21T19:13:51.248+0530] {processor.py:186} INFO - Started process (PID=7503) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:13:51.249+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:13:51.250+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:51.250+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:13:51.259+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:13:51.274+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:51.274+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:13:51.295+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:51.295+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:40:00+00:00, run_after=2026-04-21 13:42:00+00:00
+[2026-04-21T19:13:51.311+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.070 seconds
+[2026-04-21T19:15:14.047+0530] {processor.py:186} INFO - Started process (PID=7619) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:15:14.048+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:15:14.050+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.049+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:15:14.058+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:15:14.075+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.075+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:15:14.093+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.093+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:42:00+00:00, run_after=2026-04-21 13:44:00+00:00
+[2026-04-21T19:15:14.108+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.069 seconds
+[2026-04-21T19:16:31.245+0530] {processor.py:186} INFO - Started process (PID=7777) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:16:31.246+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:16:31.247+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:31.247+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:16:31.256+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:16:31.269+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:31.269+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:16:31.288+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:31.287+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:44:00+00:00, run_after=2026-04-21 13:46:00+00:00
+[2026-04-21T19:16:31.307+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.068 seconds
+[2026-04-21T19:22:30.230+0530] {processor.py:186} INFO - Started process (PID=8340) to work on /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:22:30.231+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:22:30.232+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:30.232+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:22:30.242+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:22:30.296+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:30.296+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:22:30.311+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:30.311+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:50:00+00:00, run_after=2026-04-21 13:52:00+00:00
+[2026-04-21T19:22:30.328+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py took 0.104 seconds
+[2026-04-21T19:24:24.903+0530] {processor.py:186} INFO - Started process (PID=8476) to work on /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:24:24.904+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-21T19:24:24.906+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:24.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:24:24.915+0530] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py
+[2026-04-21T19:24:24.930+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:24.930+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:24:24.947+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:24.947+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2026-04-21 13:52:00+00:00, run_after=2026-04-21 13:54:00+00:00
+[2026-04-21T19:24:24.963+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_sla_dag.py took 0.067 seconds

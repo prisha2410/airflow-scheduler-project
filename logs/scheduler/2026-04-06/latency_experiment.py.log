@@ -1,0 +1,225 @@
+[2026-04-07T04:37:19.744+0530] {processor.py:186} INFO - Started process (PID=8429) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:19.744+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:37:19.746+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.745+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:19.753+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:19.837+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.836+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG:latency_experiment
+[2026-04-07T04:37:19.846+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.846+0530] {override.py:1911} INFO - Created Permission View: can edit on DAG:latency_experiment
+[2026-04-07T04:37:19.853+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.853+0530] {override.py:1911} INFO - Created Permission View: can read on DAG:latency_experiment
+[2026-04-07T04:37:19.862+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.862+0530] {override.py:1911} INFO - Created Permission View: can create on DAG Run:latency_experiment
+[2026-04-07T04:37:19.869+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.868+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:latency_experiment
+[2026-04-07T04:37:19.875+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.875+0530] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:latency_experiment
+[2026-04-07T04:37:19.882+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.881+0530] {override.py:1911} INFO - Created Permission View: can read on DAG Run:latency_experiment
+[2026-04-07T04:37:19.882+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.882+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:37:19.891+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.891+0530] {dag.py:3262} INFO - Creating ORM DAG for latency_experiment
+[2026-04-07T04:37:19.900+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:19.899+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:06:00+00:00, run_after=2026-04-06 23:07:00+00:00
+[2026-04-07T04:37:19.915+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.177 seconds
+[2026-04-07T04:37:58.585+0530] {processor.py:186} INFO - Started process (PID=8509) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:58.586+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:37:58.588+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:58.587+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:58.600+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:37:58.616+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:58.616+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:37:58.637+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:37:58.637+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:07:00+00:00, run_after=2026-04-06 23:08:00+00:00
+[2026-04-07T04:37:58.655+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.079 seconds
+[2026-04-07T04:38:31.082+0530] {processor.py:186} INFO - Started process (PID=8553) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:38:31.083+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:38:31.084+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:38:31.083+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:38:31.094+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:38:31.109+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:38:31.109+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:38:31.134+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:38:31.134+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:08:00+00:00, run_after=2026-04-06 23:09:00+00:00
+[2026-04-07T04:38:31.157+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.081 seconds
+[2026-04-07T04:39:03.379+0530] {processor.py:186} INFO - Started process (PID=8598) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:03.380+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:39:03.382+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:03.381+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:03.393+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:03.409+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:03.409+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:39:03.429+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:03.429+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:09:00+00:00, run_after=2026-04-06 23:10:00+00:00
+[2026-04-07T04:39:03.446+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.075 seconds
+[2026-04-07T04:39:59.150+0530] {processor.py:186} INFO - Started process (PID=8675) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:59.151+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:39:59.153+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:59.152+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:59.165+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:39:59.185+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:59.184+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:39:59.208+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:39:59.208+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:09:00+00:00, run_after=2026-04-06 23:10:00+00:00
+[2026-04-07T04:39:59.228+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.086 seconds
+[2026-04-07T04:40:56.686+0530] {processor.py:186} INFO - Started process (PID=8790) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:56.687+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:40:56.688+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:56.688+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:56.698+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:56.713+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:56.712+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:40:56.732+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:56.732+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:10:00+00:00, run_after=2026-04-06 23:11:00+00:00
+[2026-04-07T04:40:56.752+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.072 seconds
+[2026-04-07T04:40:59.518+0530] {processor.py:186} INFO - Started process (PID=8800) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:59.518+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:40:59.520+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:59.520+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:59.529+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:40:59.548+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:59.547+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:40:59.566+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:40:59.566+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:10:00+00:00, run_after=2026-04-06 23:11:00+00:00
+[2026-04-07T04:40:59.585+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.073 seconds
+[2026-04-07T04:41:52.992+0530] {processor.py:186} INFO - Started process (PID=8935) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:52.993+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:41:52.995+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:52.995+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:53.005+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:53.023+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:53.023+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:41:53.042+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:53.041+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:11:00+00:00, run_after=2026-04-06 23:12:00+00:00
+[2026-04-07T04:41:53.061+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.074 seconds
+[2026-04-07T04:41:55.077+0530] {processor.py:186} INFO - Started process (PID=8939) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:55.077+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:41:55.079+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:55.078+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:55.088+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:41:55.103+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:55.103+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:41:55.125+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:41:55.125+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:11:00+00:00, run_after=2026-04-06 23:12:00+00:00
+[2026-04-07T04:41:55.143+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.073 seconds
+[2026-04-07T04:42:48.274+0530] {processor.py:186} INFO - Started process (PID=9089) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:48.275+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:42:48.276+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:48.276+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:48.284+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:48.296+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:48.296+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:42:48.315+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:48.315+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:12:00+00:00, run_after=2026-04-06 23:13:00+00:00
+[2026-04-07T04:42:48.333+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.063 seconds
+[2026-04-07T04:42:50.976+0530] {processor.py:186} INFO - Started process (PID=9096) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:50.977+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:42:50.980+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:50.979+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:50.992+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:42:51.013+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:51.012+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:42:51.035+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:42:51.035+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:12:00+00:00, run_after=2026-04-06 23:13:00+00:00
+[2026-04-07T04:42:51.053+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.084 seconds
+[2026-04-07T04:43:39.244+0530] {processor.py:186} INFO - Started process (PID=9217) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:39.245+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:43:39.246+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:39.245+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:39.255+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:39.268+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:39.268+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:43:39.288+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:39.288+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:13:00+00:00, run_after=2026-04-06 23:14:00+00:00
+[2026-04-07T04:43:39.307+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.068 seconds
+[2026-04-07T04:43:45.715+0530] {processor.py:186} INFO - Started process (PID=9230) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:45.716+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:43:45.718+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:45.718+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:45.726+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:43:45.741+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:45.740+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:43:45.760+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:43:45.760+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:13:00+00:00, run_after=2026-04-06 23:14:00+00:00
+[2026-04-07T04:43:45.779+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.069 seconds
+[2026-04-07T04:44:16.361+0530] {processor.py:186} INFO - Started process (PID=9305) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:16.362+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:44:16.364+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:16.364+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:16.372+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:16.390+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:16.389+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:44:16.409+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:16.409+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:14:00+00:00, run_after=2026-04-06 23:15:00+00:00
+[2026-04-07T04:44:16.525+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.170 seconds
+[2026-04-07T04:44:38.395+0530] {processor.py:186} INFO - Started process (PID=9351) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:38.395+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:44:38.397+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:38.396+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:38.406+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:38.419+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:38.419+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:44:38.439+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:38.439+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:14:00+00:00, run_after=2026-04-06 23:15:00+00:00
+[2026-04-07T04:44:38.456+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.067 seconds
+[2026-04-07T04:44:47.103+0530] {processor.py:186} INFO - Started process (PID=9370) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:47.104+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:44:47.106+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:47.106+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:47.115+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:44:47.226+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:47.226+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:44:47.243+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:44:47.243+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:14:00+00:00, run_after=2026-04-06 23:15:00+00:00
+[2026-04-07T04:44:47.259+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.161 seconds
+[2026-04-07T04:45:31.653+0530] {processor.py:186} INFO - Started process (PID=9473) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:31.654+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:45:31.655+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:31.655+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:31.664+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:31.679+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:31.678+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:45:31.700+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:31.700+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:15:00+00:00, run_after=2026-04-06 23:16:00+00:00
+[2026-04-07T04:45:31.719+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.073 seconds
+[2026-04-07T04:45:44.417+0530] {processor.py:186} INFO - Started process (PID=9500) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:44.417+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:45:44.419+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:44.419+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:44.428+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:45:44.443+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:44.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:45:44.463+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:45:44.462+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:15:00+00:00, run_after=2026-04-06 23:16:00+00:00
+[2026-04-07T04:45:44.481+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.071 seconds
+[2026-04-07T04:46:23.253+0530] {processor.py:186} INFO - Started process (PID=9589) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:23.254+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:46:23.256+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:23.255+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:23.265+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:23.279+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:23.279+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:46:23.300+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:23.300+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:16:00+00:00, run_after=2026-04-06 23:17:00+00:00
+[2026-04-07T04:46:23.318+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.071 seconds
+[2026-04-07T04:46:38.699+0530] {processor.py:186} INFO - Started process (PID=9620) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:38.700+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:46:38.702+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:38.702+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:38.711+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:46:38.724+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:38.724+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:46:38.745+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:46:38.745+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:16:00+00:00, run_after=2026-04-06 23:17:00+00:00
+[2026-04-07T04:46:38.768+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.077 seconds
+[2026-04-07T04:47:17.007+0530] {processor.py:186} INFO - Started process (PID=9709) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:17.008+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:47:17.009+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:17.008+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:17.018+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:17.032+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:17.031+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:47:17.051+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:17.051+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:17:00+00:00, run_after=2026-04-06 23:18:00+00:00
+[2026-04-07T04:47:17.068+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.067 seconds
+[2026-04-07T04:47:35.455+0530] {processor.py:186} INFO - Started process (PID=9763) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:35.456+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:47:35.458+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:35.458+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:35.467+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:47:35.479+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:35.479+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:47:35.498+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:47:35.498+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:17:00+00:00, run_after=2026-04-06 23:18:00+00:00
+[2026-04-07T04:47:35.516+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.067 seconds
+[2026-04-07T04:48:11.169+0530] {processor.py:186} INFO - Started process (PID=9843) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:48:11.171+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T04:48:11.172+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:48:11.172+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:48:11.182+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T04:48:11.196+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:48:11.196+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T04:48:11.215+0530] {logging_mixin.py:190} INFO - [2026-04-07T04:48:11.215+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:18:00+00:00, run_after=2026-04-06 23:19:00+00:00
+[2026-04-07T04:48:11.232+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.070 seconds
+[2026-04-07T05:09:28.853+0530] {processor.py:186} INFO - Started process (PID=10926) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:09:28.854+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:09:28.857+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:28.856+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:09:28.869+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:09:28.955+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:28.955+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:09:28.972+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:28.972+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:38:00+00:00, run_after=2026-04-06 23:39:00+00:00
+[2026-04-07T05:09:28.989+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.143 seconds
+[2026-04-07T05:10:32.975+0530] {processor.py:186} INFO - Started process (PID=11019) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:10:32.977+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:10:32.979+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:32.979+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:10:32.991+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:10:33.008+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:33.008+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:10:33.028+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:33.027+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:39:00+00:00, run_after=2026-04-06 23:40:00+00:00
+[2026-04-07T05:10:33.044+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.077 seconds
+[2026-04-07T05:11:11.723+0530] {processor.py:186} INFO - Started process (PID=11057) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:11:11.724+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:11:11.727+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:11.726+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:11:11.740+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:11:11.758+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:11.758+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:11:11.776+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:11.776+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:40:00+00:00, run_after=2026-04-06 23:41:00+00:00
+[2026-04-07T05:11:11.796+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.081 seconds
+[2026-04-07T05:12:09.557+0530] {processor.py:186} INFO - Started process (PID=11181) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:12:09.558+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:12:09.560+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:09.560+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:12:09.571+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:12:09.589+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:09.589+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:12:09.619+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:09.618+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:41:00+00:00, run_after=2026-04-06 23:42:00+00:00
+[2026-04-07T05:12:09.646+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.096 seconds
+[2026-04-07T05:13:08.723+0530] {processor.py:186} INFO - Started process (PID=11270) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:08.725+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:13:08.727+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:08.726+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:08.736+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:08.750+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:08.750+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:13:08.769+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:08.769+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:42:00+00:00, run_after=2026-04-06 23:43:00+00:00
+[2026-04-07T05:13:08.787+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.070 seconds
+[2026-04-07T05:13:40.381+0530] {processor.py:186} INFO - Started process (PID=11305) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:40.382+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:13:40.385+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:40.384+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:40.397+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:13:40.410+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:40.410+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:13:40.430+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:40.429+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:42:00+00:00, run_after=2026-04-06 23:43:00+00:00
+[2026-04-07T05:13:40.553+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.180 seconds
+[2026-04-07T05:14:15.139+0530] {processor.py:186} INFO - Started process (PID=11351) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:14:15.140+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:14:15.142+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:15.142+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:14:15.264+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:14:15.274+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:15.274+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:14:15.291+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:15.291+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:43:00+00:00, run_after=2026-04-06 23:44:00+00:00
+[2026-04-07T05:14:15.308+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.176 seconds
+[2026-04-07T05:17:19.370+0530] {processor.py:186} INFO - Started process (PID=11531) to work on /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:17:19.371+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/latency_experiment.py for tasks to queue
+[2026-04-07T05:17:19.373+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:19.373+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:17:19.382+0530] {processor.py:925} INFO - DAG(s) 'latency_experiment' retrieved from /home/ubantu/airflow/dags/latency_experiment.py
+[2026-04-07T05:17:19.400+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:19.400+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:17:19.420+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:19.420+0530] {dag.py:4180} INFO - Setting next_dagrun for latency_experiment to 2026-04-06 23:46:00+00:00, run_after=2026-04-06 23:47:00+00:00
+[2026-04-07T05:17:19.437+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/latency_experiment.py took 0.072 seconds

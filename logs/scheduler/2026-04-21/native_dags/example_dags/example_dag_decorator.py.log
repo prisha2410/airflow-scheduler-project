@@ -1,0 +1,140 @@
+[2026-04-21T18:46:31.369+0530] {processor.py:186} INFO - Started process (PID=5461) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:46:31.370+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:46:31.372+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:46:31.371+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:46:31.384+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:46:31.471+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:46:31.471+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:46:31.579+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:46:31.579+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:46:31.598+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.235 seconds
+[2026-04-21T18:48:24.122+0530] {processor.py:186} INFO - Started process (PID=5649) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:48:24.123+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:48:24.126+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:24.125+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:48:24.140+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:48:24.326+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:24.326+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:48:24.335+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:24.335+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:48:24.351+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.236 seconds
+[2026-04-21T18:49:49.297+0530] {processor.py:186} INFO - Started process (PID=5764) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:49:49.298+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:49:49.301+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:49.301+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:49:49.317+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:49:49.413+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:49.412+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:49:49.423+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:49.423+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:49:49.441+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.152 seconds
+[2026-04-21T18:51:09.828+0530] {processor.py:186} INFO - Started process (PID=5873) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:51:09.829+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:51:09.831+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:09.831+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:51:09.844+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:51:09.932+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:09.932+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:51:09.941+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:09.940+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:51:09.958+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.137 seconds
+[2026-04-21T18:53:44.898+0530] {processor.py:186} INFO - Started process (PID=6086) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:53:44.899+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:53:44.901+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:44.901+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:53:44.913+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:53:44.998+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:44.998+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:53:45.007+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:45.007+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:53:45.024+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.132 seconds
+[2026-04-21T18:55:05.800+0530] {processor.py:186} INFO - Started process (PID=6213) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:55:05.801+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:55:05.803+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:05.803+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:55:05.815+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:55:05.901+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:05.901+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:05.911+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:05.910+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:55:05.929+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.134 seconds
+[2026-04-21T18:56:26.310+0530] {processor.py:186} INFO - Started process (PID=6332) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:56:26.311+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T18:56:26.314+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:26.314+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:56:26.329+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T18:56:26.417+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:26.416+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:56:26.427+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:26.427+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T18:56:26.445+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.142 seconds
+[2026-04-21T19:01:23.138+0530] {processor.py:186} INFO - Started process (PID=6558) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:01:23.139+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:01:23.140+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:23.140+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:01:23.151+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:01:23.238+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:23.238+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:01:23.246+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:23.246+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:01:23.262+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.131 seconds
+[2026-04-21T19:03:12.751+0530] {processor.py:186} INFO - Started process (PID=6700) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:03:12.752+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:03:12.754+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:12.753+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:03:12.766+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:03:12.854+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:12.854+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:03:12.863+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:12.862+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:03:12.879+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.135 seconds
+[2026-04-21T19:05:55.059+0530] {processor.py:186} INFO - Started process (PID=6857) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:05:55.060+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:05:55.062+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:55.061+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:05:55.073+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:05:55.162+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:55.162+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:55.171+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:55.170+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:05:55.187+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.135 seconds
+[2026-04-21T19:07:44.252+0530] {processor.py:186} INFO - Started process (PID=7013) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:07:44.253+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:07:44.255+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:44.254+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:07:44.269+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:07:44.362+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:44.361+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:07:44.370+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:44.369+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:07:44.387+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2026-04-21T19:09:03.626+0530] {processor.py:186} INFO - Started process (PID=7120) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:09:03.627+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:09:03.628+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:03.628+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:09:03.639+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:09:03.658+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:03.657+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:03.667+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:03.667+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:09:03.684+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.065 seconds
+[2026-04-21T19:10:20.628+0530] {processor.py:186} INFO - Started process (PID=7217) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:10:20.630+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:10:20.631+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:20.631+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:10:20.642+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:10:20.729+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:20.729+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:10:20.737+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:20.737+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:10:20.753+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.131 seconds
+[2026-04-21T19:11:38.164+0530] {processor.py:186} INFO - Started process (PID=7321) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:11:38.166+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:11:38.167+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:38.167+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:11:38.178+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:11:38.267+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:38.266+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:11:38.276+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:38.276+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:11:38.296+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.138 seconds
+[2026-04-21T19:12:56.991+0530] {processor.py:186} INFO - Started process (PID=7424) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:12:56.991+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:12:56.992+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:56.992+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:12:57.002+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:12:57.104+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:57.104+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:12:57.113+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:57.113+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:12:57.133+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.149 seconds
+[2026-04-21T19:14:18.181+0530] {processor.py:186} INFO - Started process (PID=7546) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:14:18.182+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:14:18.184+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:18.183+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:14:18.195+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:14:18.283+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:18.282+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:14:18.291+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:18.290+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:14:18.308+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.133 seconds
+[2026-04-21T19:15:39.263+0530] {processor.py:186} INFO - Started process (PID=7660) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:15:39.264+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:15:39.265+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:39.265+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:15:39.275+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:15:39.362+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:39.362+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:15:39.370+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:39.370+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:15:39.386+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.129 seconds
+[2026-04-21T19:16:57.031+0530] {processor.py:186} INFO - Started process (PID=7860) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:16:57.032+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:16:57.033+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:57.032+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:16:57.041+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:16:57.126+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:57.126+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:16:57.134+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:57.134+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:16:57.151+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.125 seconds
+[2026-04-21T19:22:51.042+0530] {processor.py:186} INFO - Started process (PID=8360) to work on /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:22:51.043+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:22:51.044+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:51.044+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:22:51.116+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:22:51.169+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:51.168+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:22:51.178+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:51.178+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:22:51.195+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py took 0.159 seconds
+[2026-04-21T19:25:39.941+0530] {processor.py:186} INFO - Started process (PID=8598) to work on /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:25:39.942+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2026-04-21T19:25:39.944+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:39.943+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:25:40.018+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py
+[2026-04-21T19:25:40.068+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:40.068+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:25:40.077+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:40.077+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2026-04-21T19:25:40.094+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_dag_decorator.py took 0.159 seconds

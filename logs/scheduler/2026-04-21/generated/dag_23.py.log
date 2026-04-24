@@ -1,0 +1,219 @@
+[2026-04-21T18:47:09.257+0530] {processor.py:186} INFO - Started process (PID=5505) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:47:09.258+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T18:47:09.262+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:09.262+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:47:09.271+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:47:09.284+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:09.284+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:47:09.295+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:09.295+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T18:47:09.311+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.065 seconds
+[2026-04-21T18:49:56.361+0530] {processor.py:186} INFO - Started process (PID=5775) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:49:56.363+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T18:49:56.366+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:56.365+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:49:56.373+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:49:56.387+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:56.387+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:49:56.400+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:56.400+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T18:49:56.419+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.064 seconds
+[2026-04-21T18:52:32.353+0530] {processor.py:186} INFO - Started process (PID=5992) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:52:32.354+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T18:52:32.356+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:32.356+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:52:32.364+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:52:32.378+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:32.378+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:52:32.390+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:32.390+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T18:52:32.409+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.063 seconds
+[2026-04-21T18:55:13.934+0530] {processor.py:186} INFO - Started process (PID=6221) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:55:13.935+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T18:55:13.937+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:13.937+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:55:13.944+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T18:55:13.957+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:13.957+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:13.969+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:13.969+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T18:55:13.988+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.059 seconds
+[2026-04-21T19:01:56.935+0530] {processor.py:186} INFO - Started process (PID=6601) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:01:56.936+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:01:56.938+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:56.937+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:01:56.944+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:01:56.963+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:56.963+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:01:56.976+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:01:56.976+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:01:56.998+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.071 seconds
+[2026-04-21T19:06:30.830+0530] {processor.py:186} INFO - Started process (PID=6910) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:06:30.831+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:06:30.832+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:30.832+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:06:30.837+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:06:30.851+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:30.851+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:06:30.863+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:30.863+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:06:30.881+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.057 seconds
+[2026-04-21T19:09:10.385+0530] {processor.py:186} INFO - Started process (PID=7127) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:09:10.386+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:09:10.387+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:10.387+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:09:10.391+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:09:10.404+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:10.404+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:10.414+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:10.414+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:09:10.430+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.050 seconds
+[2026-04-21T19:11:43.531+0530] {processor.py:186} INFO - Started process (PID=7327) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:11:43.532+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:11:43.533+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:43.533+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:11:43.538+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:11:43.554+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:43.553+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:11:43.566+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:43.565+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:11:43.584+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.059 seconds
+[2026-04-21T19:14:26.189+0530] {processor.py:186} INFO - Started process (PID=7554) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:14:26.190+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:14:26.191+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:26.191+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:14:26.195+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:14:26.209+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:26.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:14:26.219+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:26.219+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:14:26.235+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.052 seconds
+[2026-04-21T19:17:04.731+0530] {processor.py:186} INFO - Started process (PID=7875) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:04.732+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:17:04.734+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:04.733+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:04.738+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:04.751+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:04.749+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/generated/dag_23.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:17:04.752+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:04.752+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:17:04.764+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:04.764+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:17:04.788+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.065 seconds
+[2026-04-21T19:17:55.889+0530] {processor.py:186} INFO - Started process (PID=7992) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:55.891+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:17:55.892+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:55.891+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:55.897+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:17:55.909+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:55.907+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/generated/dag_23.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:17:55.910+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:55.910+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:17:55.921+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:55.921+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:17:55.943+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.062 seconds
+[2026-04-21T19:18:46.046+0530] {processor.py:186} INFO - Started process (PID=8108) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:18:46.047+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:18:46.048+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:46.048+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:18:46.052+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:18:46.064+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:46.062+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/generated/dag_23.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:18:46.064+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:46.064+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:18:46.075+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:46.075+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:18:46.099+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.061 seconds
+[2026-04-21T19:19:31.457+0530] {processor.py:186} INFO - Started process (PID=8170) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:19:31.458+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:19:31.459+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:31.459+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:19:31.464+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:19:31.478+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:31.476+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/generated/dag_23.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:19:31.479+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:31.479+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:19:31.491+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:31.490+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:19:31.517+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.071 seconds
+[2026-04-21T19:21:40.790+0530] {processor.py:186} INFO - Started process (PID=8262) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:21:40.791+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:21:40.792+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:40.792+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:21:40.797+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:21:40.818+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:40.818+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:21:40.828+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:40.828+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:21:40.848+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.064 seconds
+[2026-04-21T19:23:31.097+0530] {processor.py:186} INFO - Started process (PID=8411) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:23:31.098+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:23:31.099+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:31.099+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:23:31.104+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:23:31.120+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:31.119+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:23:31.130+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:31.130+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:23:31.150+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.060 seconds
+[2026-04-21T19:24:56.405+0530] {processor.py:186} INFO - Started process (PID=8527) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:24:56.406+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:24:56.407+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:56.407+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:24:56.412+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:24:56.426+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:56.426+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:24:56.438+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:56.437+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:24:56.454+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.055 seconds
+[2026-04-21T19:26:18.225+0530] {processor.py:186} INFO - Started process (PID=8640) to work on /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:26:18.226+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/generated/dag_23.py for tasks to queue
+[2026-04-21T19:26:18.227+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:18.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:26:18.232+0530] {processor.py:925} INFO - DAG(s) 'dag_23' retrieved from /home/ubantu/airflow/dags/generated/dag_23.py
+[2026-04-21T19:26:18.246+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:18.246+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:26:18.257+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:18.256+0530] {dag.py:4180} INFO - Setting next_dagrun for dag_23 to None, run_after=None
+[2026-04-21T19:26:18.272+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/generated/dag_23.py took 0.053 seconds

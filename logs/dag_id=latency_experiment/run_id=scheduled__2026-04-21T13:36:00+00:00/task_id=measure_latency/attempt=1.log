@@ -1,0 +1,28 @@
+[2026-04-21T19:07:03.041+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-21T19:07:03.048+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: latency_experiment.measure_latency scheduled__2026-04-21T13:36:00+00:00 [queued]>
+[2026-04-21T19:07:03.053+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: latency_experiment.measure_latency scheduled__2026-04-21T13:36:00+00:00 [queued]>
+[2026-04-21T19:07:03.053+0530] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-04-21T19:07:03.064+0530] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): measure_latency> on 2026-04-21 13:36:00+00:00
+[2026-04-21T19:07:03.068+0530] {standard_task_runner.py:72} INFO - Started process 6948 to run task
+[2026-04-21T19:07:03.072+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'latency_experiment', 'measure_latency', 'scheduled__2026-04-21T13:36:00+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/latency_experiment.py', '--cfg-path', '/tmp/tmpju8bu5nc']
+[2026-04-21T19:07:03.072+0530] {standard_task_runner.py:105} INFO - Job 54: Subtask measure_latency
+[2026-04-21T19:07:03.107+0530] {task_command.py:467} INFO - Running <TaskInstance: latency_experiment.measure_latency scheduled__2026-04-21T13:36:00+00:00 [running]> on host ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx
+[2026-04-21T19:07:03.167+0530] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='latency_experiment' AIRFLOW_CTX_TASK_ID='measure_latency' AIRFLOW_CTX_EXECUTION_DATE='2026-04-21T13:36:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-21T13:36:00+00:00'
+[2026-04-21T19:07:03.167+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-21T19:07:03.168+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-21T19:07:03.168+0530] {logging_mixin.py:190} INFO - Current task name:measure_latency state:running start_date:2026-04-21 13:37:03.048789+00:00
+[2026-04-21T19:07:03.168+0530] {logging_mixin.py:190} INFO - Dag name:latency_experiment and current dag run status:running
+[2026-04-21T19:07:03.168+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-21T19:07:03.169+0530] {logging_mixin.py:190} INFO - SCHEDULING_LAG_SECONDS=63.17
+[2026-04-21T19:07:03.169+0530] {logging_mixin.py:190} INFO - Scheduled for: 2026-04-21 13:36:00+00:00
+[2026-04-21T19:07:03.169+0530] {logging_mixin.py:190} INFO - Actually started: 2026-04-21 13:37:03.169101+00:00
+[2026-04-21T19:07:03.169+0530] {python.py:240} INFO - Done. Returned value was: None
+[2026-04-21T19:07:03.172+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-21T19:07:03.173+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=latency_experiment, task_id=measure_latency, run_id=scheduled__2026-04-21T13:36:00+00:00, execution_date=20260421T133600, start_date=20260421T133703, end_date=20260421T133703
+[2026-04-21T19:07:03.180+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-04-21T19:07:03.180+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-04-21T19:07:03.180+0530] {logging_mixin.py:190} INFO - Dag name:latency_experiment queued_at:2026-04-21 13:37:01.402367+00:00
+[2026-04-21T19:07:03.180+0530] {logging_mixin.py:190} INFO - Task hostname:ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx operator:PythonOperator
+[2026-04-21T19:07:03.204+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-21T19:07:03.219+0530] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-21T19:07:03.220+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

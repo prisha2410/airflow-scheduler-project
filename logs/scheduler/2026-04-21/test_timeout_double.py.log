@@ -1,0 +1,360 @@
+[2026-04-21T18:45:27.580+0530] {processor.py:186} INFO - Started process (PID=5262) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:45:27.581+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:45:27.584+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.583+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:45:27.597+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:45:27.689+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.688+0530] {override.py:1911} INFO - Created Permission View: can read on DAG:test_timeout_double
+[2026-04-21T18:45:27.699+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.698+0530] {override.py:1911} INFO - Created Permission View: can edit on DAG:test_timeout_double
+[2026-04-21T18:45:27.708+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.707+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG:test_timeout_double
+[2026-04-21T18:45:27.720+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.719+0530] {override.py:1911} INFO - Created Permission View: can read on DAG Run:test_timeout_double
+[2026-04-21T18:45:27.728+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.727+0530] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:test_timeout_double
+[2026-04-21T18:45:27.736+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.735+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:test_timeout_double
+[2026-04-21T18:45:27.744+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.744+0530] {override.py:1911} INFO - Created Permission View: can create on DAG Run:test_timeout_double
+[2026-04-21T18:45:27.745+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.744+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:45:27.757+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.757+0530] {dag.py:3262} INFO - Creating ORM DAG for test_timeout_double
+[2026-04-21T18:45:27.758+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:27.758+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:45:27.774+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.200 seconds
+[2026-04-21T18:47:34.317+0530] {processor.py:186} INFO - Started process (PID=5577) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:47:34.318+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:47:34.321+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:34.320+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:47:34.329+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:47:34.343+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:34.343+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:47:34.354+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:34.354+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:47:34.372+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.063 seconds
+[2026-04-21T18:48:56.925+0530] {processor.py:186} INFO - Started process (PID=5681) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:48:56.926+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:48:56.928+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:56.928+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:48:56.936+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:48:56.951+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:56.951+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:48:57.063+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:48:57.063+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:48:57.079+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.160 seconds
+[2026-04-21T18:50:22.031+0530] {processor.py:186} INFO - Started process (PID=5817) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:50:22.032+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:50:22.034+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:22.033+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:50:22.040+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:50:22.052+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:22.051+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:50:22.063+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:22.063+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:50:22.078+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.053 seconds
+[2026-04-21T18:51:39.613+0530] {processor.py:186} INFO - Started process (PID=5909) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:51:39.614+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:51:39.617+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:39.616+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:51:39.625+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:51:39.641+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:39.641+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:51:39.653+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:39.652+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:51:39.672+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.066 seconds
+[2026-04-21T18:52:56.985+0530] {processor.py:186} INFO - Started process (PID=6026) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:52:56.986+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:52:56.988+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:56.988+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:52:56.996+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:52:57.010+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:57.010+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:52:57.025+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:57.025+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:52:57.046+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.067 seconds
+[2026-04-21T18:54:18.901+0530] {processor.py:186} INFO - Started process (PID=6140) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:54:18.902+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:54:18.904+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:18.904+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:54:18.912+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:54:18.925+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:18.925+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:54:18.936+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:18.936+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:54:18.953+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.058 seconds
+[2026-04-21T18:55:37.368+0530] {processor.py:186} INFO - Started process (PID=6254) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:55:37.369+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:55:37.371+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:37.371+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:55:37.379+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:55:37.394+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:37.394+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:37.406+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:37.406+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:55:37.425+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.064 seconds
+[2026-04-21T18:56:54.937+0530] {processor.py:186} INFO - Started process (PID=6363) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:56:54.938+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:56:54.940+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:54.939+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:56:54.947+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:56:54.961+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:54.961+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:56:54.974+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:56:54.973+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:56:54.993+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.063 seconds
+[2026-04-21T18:59:30.291+0530] {processor.py:186} INFO - Started process (PID=6464) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.292+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:59:30.293+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.293+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.297+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.315+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.315+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:59:30.326+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.326+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:59:30.341+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.055 seconds
+[2026-04-21T18:59:30.472+0530] {processor.py:186} INFO - Started process (PID=6465) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.472+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:59:30.474+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.474+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.480+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.505+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.504+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:59:30.519+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.519+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:59:30.534+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.069 seconds
+[2026-04-21T18:59:30.580+0530] {processor.py:186} INFO - Started process (PID=6467) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.581+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T18:59:30.582+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.581+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.585+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T18:59:30.603+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.603+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:59:30.614+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:59:30.614+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T18:59:30.629+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.055 seconds
+[2026-04-21T19:00:34.769+0530] {processor.py:186} INFO - Started process (PID=6492) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:00:34.770+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:00:34.771+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:34.771+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:00:34.775+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:00:34.795+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:34.795+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:00:34.807+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:34.807+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:00:34.823+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.059 seconds
+[2026-04-21T19:02:25.216+0530] {processor.py:186} INFO - Started process (PID=6639) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:02:25.217+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:02:25.218+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:25.218+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:02:25.223+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:02:25.239+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:25.238+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:02:25.249+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:25.249+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:02:25.264+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.054 seconds
+[2026-04-21T19:03:44.648+0530] {processor.py:186} INFO - Started process (PID=6744) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:03:44.649+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:03:44.650+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:44.650+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:03:44.655+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:03:44.669+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:44.669+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:03:44.680+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:44.680+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:03:44.698+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.056 seconds
+[2026-04-21T19:05:08.829+0530] {processor.py:186} INFO - Started process (PID=6793) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:08.830+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:05:08.831+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:08.830+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:08.834+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:08.853+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:08.852+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:08.862+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:08.861+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:05:08.880+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.057 seconds
+[2026-04-21T19:05:09.003+0530] {processor.py:186} INFO - Started process (PID=6795) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:09.004+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:05:09.006+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:09.006+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:09.011+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:05:09.034+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:09.034+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:09.046+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:09.045+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:05:09.061+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.064 seconds
+[2026-04-21T19:06:55.747+0530] {processor.py:186} INFO - Started process (PID=6940) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:06:55.748+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:06:55.750+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:55.749+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:06:55.754+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:06:55.770+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:55.769+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:06:55.782+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:06:55.782+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:06:55.799+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.058 seconds
+[2026-04-21T19:08:15.446+0530] {processor.py:186} INFO - Started process (PID=7054) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:08:15.448+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:08:15.449+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:15.449+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:08:15.455+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:08:15.473+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:15.473+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:08:15.486+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:15.486+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:08:15.507+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.067 seconds
+[2026-04-21T19:09:34.168+0530] {processor.py:186} INFO - Started process (PID=7161) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:09:34.169+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:09:34.171+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:34.171+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:09:34.177+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:09:34.198+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:34.197+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:34.212+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:34.212+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:09:34.230+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.070 seconds
+[2026-04-21T19:10:51.569+0530] {processor.py:186} INFO - Started process (PID=7251) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:10:51.570+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:10:51.571+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:51.571+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:10:51.576+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:10:51.591+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:51.591+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:10:51.602+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:51.601+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:10:51.619+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.056 seconds
+[2026-04-21T19:12:09.732+0530] {processor.py:186} INFO - Started process (PID=7358) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:12:09.733+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:12:09.734+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:09.734+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:12:09.739+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:12:09.753+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:09.753+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:12:09.764+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:09.764+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:12:09.780+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.053 seconds
+[2026-04-21T19:13:31.014+0530] {processor.py:186} INFO - Started process (PID=7482) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:13:31.015+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:13:31.016+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:31.016+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:13:31.021+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:13:31.035+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:31.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:13:31.046+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:31.046+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:13:31.062+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.053 seconds
+[2026-04-21T19:14:51.835+0530] {processor.py:186} INFO - Started process (PID=7586) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:14:51.836+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:14:51.837+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:51.837+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:14:51.841+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:14:51.856+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:51.855+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:14:51.866+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:51.866+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:14:51.883+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.054 seconds
+[2026-04-21T19:16:10.282+0530] {processor.py:186} INFO - Started process (PID=7699) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:16:10.283+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:16:10.285+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:10.284+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:16:10.290+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:16:10.306+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:10.305+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:16:10.318+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:10.317+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:16:10.335+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.059 seconds
+[2026-04-21T19:17:30.378+0530] {processor.py:186} INFO - Started process (PID=7964) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:17:30.378+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:17:30.380+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:30.380+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:17:30.385+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:17:30.397+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:30.395+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/test_timeout_double.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:17:30.398+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:30.398+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:17:30.409+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:17:30.409+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:17:30.432+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.062 seconds
+[2026-04-21T19:18:12.691+0530] {processor.py:186} INFO - Started process (PID=8011) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:12.692+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:18:12.694+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:12.693+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:12.699+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:12.712+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:12.710+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/test_timeout_double.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:18:12.713+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:12.713+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:18:12.724+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:12.724+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:18:12.749+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.066 seconds
+[2026-04-21T19:18:55.224+0530] {processor.py:186} INFO - Started process (PID=8127) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:55.225+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:18:55.226+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:55.226+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:55.232+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:18:55.246+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:55.244+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/test_timeout_double.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:18:55.247+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:55.247+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:18:55.262+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:18:55.262+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:18:55.290+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.076 seconds
+[2026-04-21T19:19:40.368+0530] {processor.py:186} INFO - Started process (PID=8180) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:40.369+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:19:40.371+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:40.370+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:40.375+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:40.387+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:40.385+0530] {dagbag.py:698} ERROR - Failed to write serialized DAG: /home/ubantu/airflow/dags/test_timeout_double.py
+Traceback (most recent call last):
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/dagbag.py", line 686, in _serialize_dag_capturing_errors
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 169, in write_dag
+  File "<string>", line 4, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 481, in _initialize_instance
+    with util.safe_reraise():
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/sqlalchemy/orm/state.py", line 479, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/models/serialized_dag.py", line 116, in __init__
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 1776, in to_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/serialized_objects.py", line 561, in validate_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 71, in load_dag_schema
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/json_schema.py", line 58, in load_dag_schema_dict
+  File "/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/pkgutil.py", line 640, in get_data
+    return loader.get_data(resource_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/serialization/schema.json'
+[2026-04-21T19:19:40.388+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:40.388+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:19:40.399+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:40.399+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:19:40.420+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.059 seconds
+[2026-04-21T19:19:56.569+0530] {processor.py:186} INFO - Started process (PID=8200) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:56.569+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:19:56.570+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:56.570+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:56.575+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:19:56.598+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:56.597+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:19:56.611+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:19:56.610+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:19:56.633+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.070 seconds
+[2026-04-21T19:21:16.511+0530] {processor.py:186} INFO - Started process (PID=8231) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.512+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:21:16.513+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.512+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.517+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.535+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.534+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:21:16.544+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.544+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:21:16.560+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.055 seconds
+[2026-04-21T19:21:16.669+0530] {processor.py:186} INFO - Started process (PID=8232) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.669+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:21:16.671+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.671+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.676+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:21:16.696+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.696+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:21:16.706+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:21:16.706+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:21:16.722+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.060 seconds
+[2026-04-21T19:23:05.308+0530] {processor.py:186} INFO - Started process (PID=8377) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:23:05.309+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:23:05.311+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:05.310+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:23:05.316+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:23:05.333+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:05.332+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:23:05.346+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:23:05.345+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:23:05.363+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.061 seconds
+[2026-04-21T19:24:30.152+0530] {processor.py:186} INFO - Started process (PID=8483) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:24:30.153+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:24:30.155+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:30.154+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:24:30.160+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:24:30.178+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:30.178+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:24:30.188+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:30.188+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:24:30.205+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.060 seconds
+[2026-04-21T19:25:50.503+0530] {processor.py:186} INFO - Started process (PID=8609) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:25:50.504+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:25:50.506+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:50.505+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:25:50.511+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:25:50.526+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:50.526+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:25:50.537+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:25:50.537+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:25:50.556+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.059 seconds
+[2026-04-21T19:29:40.995+0530] {processor.py:186} INFO - Started process (PID=8721) to work on /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:29:40.996+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/test_timeout_double.py for tasks to queue
+[2026-04-21T19:29:40.998+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:29:40.997+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:29:41.003+0530] {processor.py:925} INFO - DAG(s) 'test_timeout_double' retrieved from /home/ubantu/airflow/dags/test_timeout_double.py
+[2026-04-21T19:29:41.025+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:29:41.025+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:29:41.039+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:29:41.039+0530] {dag.py:4180} INFO - Setting next_dagrun for test_timeout_double to None, run_after=None
+[2026-04-21T19:29:41.059+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/test_timeout_double.py took 0.068 seconds

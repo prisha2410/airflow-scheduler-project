@@ -1,0 +1,168 @@
+[2026-04-21T18:45:46.551+0530] {processor.py:186} INFO - Started process (PID=5365) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:45:46.553+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:45:46.557+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:46.556+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:45:46.569+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:45:46.697+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:46.697+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:45:46.707+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:46.707+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:45:46.727+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.187 seconds
+[2026-04-21T18:47:41.992+0530] {processor.py:186} INFO - Started process (PID=5595) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:47:41.993+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:47:41.995+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:41.995+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:47:42.004+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:47:42.018+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:42.018+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:47:42.030+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:42.030+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:47:42.053+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.067 seconds
+[2026-04-21T18:49:07.033+0530] {processor.py:186} INFO - Started process (PID=5706) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:49:07.034+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:49:07.037+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:07.036+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:49:07.046+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:49:07.166+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:07.165+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:49:07.176+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:07.175+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:49:07.191+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.165 seconds
+[2026-04-21T18:50:27.834+0530] {processor.py:186} INFO - Started process (PID=5829) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:50:27.835+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:50:27.838+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:27.838+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:50:27.848+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:50:27.862+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:27.862+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:50:27.874+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:27.874+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:50:27.894+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.067 seconds
+[2026-04-21T18:51:47.897+0530] {processor.py:186} INFO - Started process (PID=5917) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:51:47.898+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:51:47.901+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:47.900+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:51:47.910+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:51:47.925+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:47.924+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:51:47.939+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:51:47.938+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:51:47.959+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.070 seconds
+[2026-04-21T18:53:06.806+0530] {processor.py:186} INFO - Started process (PID=6039) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:53:06.807+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:53:06.809+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:06.808+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:53:06.818+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:53:06.832+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:06.832+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:53:06.844+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:06.844+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:53:06.860+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.061 seconds
+[2026-04-21T18:54:26.284+0530] {processor.py:186} INFO - Started process (PID=6152) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:54:26.285+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:54:26.287+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:26.287+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:54:26.296+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:54:26.311+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:26.311+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:54:26.324+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:26.323+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:54:26.341+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.063 seconds
+[2026-04-21T18:55:45.462+0530] {processor.py:186} INFO - Started process (PID=6262) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:55:45.465+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:55:45.470+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:45.469+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:55:45.488+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:55:45.517+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:45.517+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:45.531+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:45.531+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:55:45.566+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.116 seconds
+[2026-04-21T18:57:03.686+0530] {processor.py:186} INFO - Started process (PID=6375) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:57:03.687+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T18:57:03.689+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:03.689+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:57:03.699+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T18:57:03.714+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:03.714+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:57:03.726+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:03.726+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T18:57:03.746+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.068 seconds
+[2026-04-21T19:00:44.199+0530] {processor.py:186} INFO - Started process (PID=6510) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:00:44.201+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:00:44.203+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:44.202+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:00:44.210+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:00:44.230+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:44.230+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:00:44.240+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:44.240+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:00:44.257+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.065 seconds
+[2026-04-21T19:02:33.815+0530] {processor.py:186} INFO - Started process (PID=6648) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:02:33.816+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:02:33.818+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:33.817+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:02:33.825+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:02:33.844+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:33.843+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:02:33.857+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:33.857+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:02:33.878+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.070 seconds
+[2026-04-21T19:03:52.682+0530] {processor.py:186} INFO - Started process (PID=6753) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:03:52.683+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:03:52.685+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:52.684+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:03:52.693+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:03:52.711+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:52.711+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:03:52.721+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:03:52.721+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:03:52.736+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.062 seconds
+[2026-04-21T19:05:18.395+0530] {processor.py:186} INFO - Started process (PID=6806) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:05:18.397+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:05:18.398+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:18.398+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:05:18.405+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:05:18.429+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:18.429+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:18.438+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:18.438+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:05:18.454+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.065 seconds
+[2026-04-21T19:07:05.969+0530] {processor.py:186} INFO - Started process (PID=6962) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:07:05.970+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:07:05.971+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:05.971+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:07:05.977+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:07:05.990+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:05.990+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:07:06.000+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:06.000+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:07:06.016+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.053 seconds
+[2026-04-21T19:08:23.467+0530] {processor.py:186} INFO - Started process (PID=7067) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:08:23.468+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:08:23.469+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:23.469+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:08:23.477+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:08:23.496+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:23.496+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:08:23.506+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:23.506+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:08:23.522+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.063 seconds
+[2026-04-21T19:09:41.202+0530] {processor.py:186} INFO - Started process (PID=7170) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:09:41.203+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:09:41.204+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:41.204+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:09:41.210+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:09:41.228+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:41.228+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:41.240+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:41.240+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:09:41.260+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2026-04-21T19:10:58.090+0530] {processor.py:186} INFO - Started process (PID=7260) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:10:58.091+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:10:58.093+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:58.093+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:10:58.102+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:10:58.122+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:58.122+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:10:58.133+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:10:58.133+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:10:58.152+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.070 seconds
+[2026-04-21T19:12:17.615+0530] {processor.py:186} INFO - Started process (PID=7366) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:12:17.616+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:12:17.617+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:17.617+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:12:17.624+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:12:17.638+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:17.638+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:12:17.649+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:17.649+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:12:17.668+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.059 seconds
+[2026-04-21T19:13:38.829+0530] {processor.py:186} INFO - Started process (PID=7490) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:13:38.830+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:13:38.831+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:38.831+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:13:38.837+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:13:38.852+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:38.852+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:13:38.864+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:38.864+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:13:38.881+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.058 seconds
+[2026-04-21T19:14:59.221+0530] {processor.py:186} INFO - Started process (PID=7594) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:14:59.223+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:14:59.224+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:59.224+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:14:59.231+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:14:59.246+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:59.246+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:14:59.256+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:14:59.256+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:14:59.272+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.057 seconds
+[2026-04-21T19:16:18.170+0530] {processor.py:186} INFO - Started process (PID=7710) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:16:18.171+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:16:18.173+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:18.173+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:16:18.182+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:16:18.200+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:18.200+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:16:18.211+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:18.210+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:16:18.227+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2026-04-21T19:22:06.891+0530] {processor.py:186} INFO - Started process (PID=8314) to work on /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:22:06.891+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:22:06.892+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:06.892+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:22:06.897+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:22:06.960+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:06.960+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:22:06.969+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:06.969+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:22:06.985+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py took 0.100 seconds
+[2026-04-21T19:24:00.798+0530] {processor.py:186} INFO - Started process (PID=8442) to work on /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:24:00.799+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:24:00.801+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:00.800+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:24:00.807+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:24:00.823+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:00.822+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:24:00.833+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:00.833+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:24:00.850+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py took 0.057 seconds
+[2026-04-21T19:26:42.020+0530] {processor.py:186} INFO - Started process (PID=8672) to work on /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:26:42.021+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-04-21T19:26:42.022+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:42.022+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:26:42.029+0530] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py
+[2026-04-21T19:26:42.047+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:42.046+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:26:42.060+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:26:42.060+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-04-21T19:26:42.081+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/tutorial_taskflow_api.py took 0.068 seconds

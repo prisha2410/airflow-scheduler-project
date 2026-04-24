@@ -1,0 +1,154 @@
+[2026-04-21T18:45:59.904+0530] {processor.py:186} INFO - Started process (PID=5416) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:45:59.906+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:45:59.911+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:45:59.910+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:45:59.927+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:46:00.047+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:46:00.047+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:46:00.062+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:46:00.062+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:46:00.079+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.185 seconds
+[2026-04-21T18:47:56.109+0530] {processor.py:186} INFO - Started process (PID=5615) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:47:56.110+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:47:56.113+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:56.112+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:47:56.124+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:47:56.150+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:56.150+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:47:56.173+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:47:56.173+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:47:56.191+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.090 seconds
+[2026-04-21T18:49:22.541+0530] {processor.py:186} INFO - Started process (PID=5723) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:49:22.543+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:49:22.545+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:22.545+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:49:22.556+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:49:22.687+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:22.687+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:49:22.703+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:49:22.703+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:49:22.720+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.187 seconds
+[2026-04-21T18:50:41.513+0530] {processor.py:186} INFO - Started process (PID=5843) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:50:41.514+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:50:41.516+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:41.516+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:50:41.525+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:50:41.542+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:41.541+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:50:41.559+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:50:41.559+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:50:41.576+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2026-04-21T18:52:03.578+0530] {processor.py:186} INFO - Started process (PID=5944) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:52:03.579+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:52:03.582+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:03.582+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:52:03.591+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:52:03.609+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:03.608+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:52:03.628+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:52:03.628+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:52:03.646+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.075 seconds
+[2026-04-21T18:53:21.078+0530] {processor.py:186} INFO - Started process (PID=6059) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:53:21.079+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:53:21.083+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:21.082+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:53:21.091+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:53:21.108+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:21.108+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:53:21.126+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:53:21.126+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:53:21.143+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2026-04-21T18:54:39.338+0530] {processor.py:186} INFO - Started process (PID=6168) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:54:39.340+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:54:39.344+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:39.343+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:54:39.355+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:54:39.378+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:39.377+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:54:39.399+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:54:39.399+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:54:39.416+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.085 seconds
+[2026-04-21T18:55:59.304+0530] {processor.py:186} INFO - Started process (PID=6281) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:55:59.305+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:55:59.308+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:59.308+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:55:59.317+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:55:59.333+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:59.333+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:55:59.351+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:55:59.350+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:55:59.368+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2026-04-21T18:57:17.862+0530] {processor.py:186} INFO - Started process (PID=6389) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:57:17.863+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T18:57:17.866+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:17.866+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:57:17.874+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T18:57:17.891+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:17.890+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T18:57:17.908+0530] {logging_mixin.py:190} INFO - [2026-04-21T18:57:17.908+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:57:17.924+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2026-04-21T19:00:55.047+0530] {processor.py:186} INFO - Started process (PID=6526) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:00:55.048+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:00:55.049+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:55.049+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:00:55.057+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:00:55.075+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:55.074+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:00:55.090+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:00:55.090+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:00:55.105+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.064 seconds
+[2026-04-21T19:02:46.018+0530] {processor.py:186} INFO - Started process (PID=6665) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:02:46.019+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:02:46.020+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:46.020+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:02:46.029+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:02:46.046+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:46.046+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:02:46.062+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:02:46.062+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:02:46.085+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.073 seconds
+[2026-04-21T19:05:29.266+0530] {processor.py:186} INFO - Started process (PID=6823) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:05:29.267+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:05:29.268+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:29.268+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:05:29.276+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:05:29.295+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:29.294+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:05:29.309+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:05:29.309+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:05:29.326+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2026-04-21T19:07:18.862+0530] {processor.py:186} INFO - Started process (PID=6980) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:07:18.863+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:07:18.864+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.864+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:07:18.872+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:07:18.888+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.888+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:07:18.904+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:07:18.904+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:07:18.924+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2026-04-21T19:08:36.081+0530] {processor.py:186} INFO - Started process (PID=7085) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:08:36.082+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:08:36.084+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:36.083+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:08:36.092+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:08:36.111+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:36.110+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:08:36.127+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:08:36.127+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:08:36.145+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2026-04-21T19:09:54.848+0530] {processor.py:186} INFO - Started process (PID=7184) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:09:54.849+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:09:54.851+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.850+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:09:54.858+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:09:54.874+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.874+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:09:54.891+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:09:54.891+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:09:54.907+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2026-04-21T19:11:13.237+0530] {processor.py:186} INFO - Started process (PID=7291) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:11:13.238+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:11:13.240+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:13.239+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:11:13.248+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:11:13.267+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:13.267+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:11:13.286+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:11:13.286+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:11:13.308+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2026-04-21T19:12:31.367+0530] {processor.py:186} INFO - Started process (PID=7383) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:12:31.368+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:12:31.370+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.369+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:12:31.378+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:12:31.396+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.396+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:12:31.413+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:12:31.412+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:12:31.429+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2026-04-21T19:13:52.394+0530] {processor.py:186} INFO - Started process (PID=7507) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:13:52.395+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:13:52.397+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:52.396+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:13:52.404+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:13:52.420+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:52.420+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:13:52.436+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:13:52.436+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:13:52.453+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2026-04-21T19:15:14.374+0530] {processor.py:186} INFO - Started process (PID=7620) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:15:14.375+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:15:14.376+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.376+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:15:14.384+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:15:14.402+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.401+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:15:14.418+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:15:14.418+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:15:14.434+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2026-04-21T19:16:32.406+0530] {processor.py:186} INFO - Started process (PID=7778) to work on /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:16:32.407+0530] {processor.py:914} INFO - Processing file /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:16:32.408+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:32.408+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:16:32.416+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:16:32.433+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:32.432+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:16:32.447+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:16:32.447+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:16:32.463+0530] {processor.py:208} INFO - Processing /home/ubantu/miniconda3/envs/airflow-dev/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.063 seconds
+[2026-04-21T19:22:31.476+0530] {processor.py:186} INFO - Started process (PID=8341) to work on /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:22:31.477+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:22:31.478+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:31.478+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:22:31.486+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:22:31.543+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:31.543+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:22:31.556+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:22:31.556+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:22:31.573+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py took 0.103 seconds
+[2026-04-21T19:24:26.065+0530] {processor.py:186} INFO - Started process (PID=8477) to work on /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:24:26.066+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-21T19:24:26.068+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:26.067+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:24:26.075+0530] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py
+[2026-04-21T19:24:26.091+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:26.090+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-21T19:24:26.107+0530] {logging_mixin.py:190} INFO - [2026-04-21T19:24:26.106+0530] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:24:26.123+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow-src/airflow/example_dags/example_skip_dag.py took 0.068 seconds
