@@ -37,16 +37,19 @@ A deep-dive systems engineering analysis of the **Apache Airflow Scheduler**. We
 ```
 airflow-scheduler-project/
 ├── README.md
-├── experiment1_results.txt        ← Raw latency measurements (13 runs)
-├── dags/
+├── dags/                          ← All Airflow DAG files
 │   ├── latency_experiment.py      ← Experiment 1: scheduling lag measurement
 │   ├── zombie_experiment.py       ← Experiment 2: crash detection (SIGKILL)
 │   ├── test_timeout_double.py     ← Timeout behavior test
-│   └── generated/
-│       ├── dag_0.py               ← Experiment 3: scale test (51 DAGs)
+│   └── generated/                 ← Experiment 3: scale test
+│       ├── dag_0.py
 │       ├── dag_1.py
-│       └── ... dag_49.py
-└── logs/
+│       └── ... dag_49.py          ← 51 DAGs total
+├── results/                       ← Raw experiment output
+│   ├── experiment1_results.txt    ← Latency measurements (13 runs)
+│   ├── experiment2_results.txt    ← Zombie crash log evidence
+│   └── experiment3_results.txt    ← Parse time degradation data
+└── logs/                          ← Full Airflow execution logs
     ├── dag_id=latency_experiment/ ← Experiment 1 task logs
     ├── dag_id=zombie_experiment/  ← Experiment 2 crash logs
     ├── dag_id=test_timeout_double/← Timeout experiment logs
@@ -84,21 +87,21 @@ local_task_job_runner.py:266  return code → SUCCESS / FAILED
 - **Hypothesis:** Lag ≈ 2 × parse_interval + executor overhead (~61s)
 - **Result:** Mean lag = 63.1s, σ = 0.33s — structurally deterministic
 - **Key insight:** Changing heartbeat 5s → 30s had zero effect. Real bottleneck is `min_file_process_interval=30s` + SQLite single-thread (`manager.py:406`)
-- **Raw data:** `experiment1_results.txt`
+- **Raw data:** `results/experiment1_results.txt`
 
 ### Experiment 2 — Zombie Task Detection
 - **DAG:** `dags/zombie_experiment.py`
 - **Hypothesis:** SIGKILL triggers fast path at `local_task_job_runner.py:266`
 - **Result:** Crash detected in 535ms, return code -9 confirmed
 - **Key insight:** Fast path (535ms) vs slow path (300s) — 580x difference
-- **Raw data:** `logs/dag_id=zombie_experiment/`
+- **Raw data:** `results/experiment2_results.txt`
 
 ### Experiment 3 — DAG Scale Stress Test
 - **DAGs:** `dags/generated/dag_0.py` ... `dag_49.py`
 - **Hypothesis:** 51 DAGs will degrade parse time (single-threaded processor)
 - **Result:** +297% parse time increase, 245s starvation gap
 - **Key insight:** SQLite forces parallelism=1 — confirmed at `manager.py:406`
-- **Raw data:** `logs/scheduler/`
+- **Raw data:** `results/experiment3_results.txt`
 
 ---
 
