@@ -1,0 +1,90 @@
+[2026-04-07T05:09:30.576+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-07T05:09:30.584+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: zombie_experiment.zombie_task manual__2026-04-06T23:36:31+00:00 [queued]>
+[2026-04-07T05:09:30.589+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: zombie_experiment.zombie_task manual__2026-04-06T23:36:31+00:00 [queued]>
+[2026-04-07T05:09:30.589+0530] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-04-07T05:09:30.599+0530] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): zombie_task> on 2026-04-06 23:36:31+00:00
+[2026-04-07T05:09:30.603+0530] {standard_task_runner.py:72} INFO - Started process 10929 to run task
+[2026-04-07T05:09:30.606+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'zombie_experiment', 'zombie_task', 'manual__2026-04-06T23:36:31+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/zombie_experiment.py', '--cfg-path', '/tmp/tmprb81p7j2']
+[2026-04-07T05:09:30.607+0530] {standard_task_runner.py:105} INFO - Job 19: Subtask zombie_task
+[2026-04-07T05:09:30.641+0530] {task_command.py:467} INFO - Running <TaskInstance: zombie_experiment.zombie_task manual__2026-04-06T23:36:31+00:00 [running]> on host ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx
+[2026-04-07T05:09:30.686+0530] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='zombie_experiment' AIRFLOW_CTX_TASK_ID='zombie_task' AIRFLOW_CTX_EXECUTION_DATE='2026-04-06T23:36:31+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-06T23:36:31+00:00'
+[2026-04-07T05:09:30.687+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-04-07T05:09:30.687+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-04-07T05:09:30.687+0530] {logging_mixin.py:190} INFO - Current task name:zombie_task state:running start_date:2026-04-06 23:39:30.584772+00:00
+[2026-04-07T05:09:30.687+0530] {logging_mixin.py:190} INFO - Dag name:zombie_experiment and current dag run status:running
+[2026-04-07T05:09:30.688+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-07T05:09:30.688+0530] {logging_mixin.py:190} INFO - Task started - will simulate worker crash in 10 seconds
+[2026-04-07T05:09:40.689+0530] {logging_mixin.py:190} INFO - Simulating worker crash now!
+[2026-04-07T05:09:40.703+0530] {local_task_job_runner.py:266} INFO - Task exited with return code -9. For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#LocalTaskJob-killed
+[2026-04-07T05:09:40.721+0530] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-07T05:09:40.723+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-04-07T05:09:21.416+0530] {processor.py:186} INFO - Started process (PID=10920) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:21.417+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:09:21.418+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:21.418+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:21.428+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:21.519+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:21.519+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:09:21.529+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:21.529+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:09:21.547+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.136 seconds
+[2026-04-07T05:09:41.182+0530] {processor.py:186} INFO - Started process (PID=10940) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:41.182+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:09:41.185+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.184+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:41.196+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:09:41.211+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.210+0530] {taskinstance.py:3313} ERROR - {'DAG Id': 'zombie_experiment', 'Task Id': 'zombie_task', 'Run Id': 'manual__2026-04-06T23:36:31+00:00', 'Hostname': 'ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx'}
+[2026-04-07T05:09:41.223+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-04-07T05:09:41.223+0530] {logging_mixin.py:190} INFO - Task start:2026-04-06 23:39:30.584772+00:00 end:2026-04-06 23:39:41.214998+00:00 duration:10.630226
+[2026-04-07T05:09:41.224+0530] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): zombie_task> dag:<DAG: zombie_experiment> dagrun:<DagRun zombie_experiment @ 2026-04-06 23:36:31+00:00: manual__2026-04-06T23:36:31+00:00, state:running, queued_at: 2026-04-06 23:36:31.842132+00:00. externally triggered: True>
+[2026-04-07T05:09:41.224+0530] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'zombie_experiment', 'Task Id': 'zombie_task', 'Run Id': 'manual__2026-04-06T23:36:31+00:00', 'Hostname': 'ubantu-Victus-by-HP-Gaming-Laptop-15-fa1xxx'}
+[2026-04-07T05:09:41.224+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.224+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=zombie_experiment, task_id=zombie_task, run_id=manual__2026-04-06T23:36:31+00:00, execution_date=20260406T233631, start_date=20260406T233930, end_date=20260406T233941
+[2026-04-07T05:09:41.234+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.234+0530] {processor.py:876} INFO - Executed callback for <TaskInstance: zombie_experiment.zombie_task manual__2026-04-06T23:36:31+00:00 [failed]> in state failed
+[2026-04-07T05:09:41.237+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.237+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:09:41.248+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:09:41.248+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:09:41.263+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.089 seconds
+[2026-04-07T05:10:31.936+0530] {processor.py:186} INFO - Started process (PID=11018) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:10:31.937+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:10:31.939+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:31.939+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:10:31.948+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:10:31.964+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:31.964+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:10:31.977+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:10:31.977+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:10:31.996+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.067 seconds
+[2026-04-07T05:11:10.511+0530] {processor.py:186} INFO - Started process (PID=11056) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:11:10.512+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:11:10.514+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:10.514+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:11:10.523+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:11:10.542+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:10.542+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:11:10.553+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:11:10.552+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:11:10.573+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.067 seconds
+[2026-04-07T05:12:08.407+0530] {processor.py:186} INFO - Started process (PID=11180) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:12:08.409+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:12:08.412+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:08.411+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:12:08.426+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:12:08.449+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:08.449+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:12:08.461+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:12:08.461+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:12:08.480+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.083 seconds
+[2026-04-07T05:13:07.582+0530] {processor.py:186} INFO - Started process (PID=11269) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:07.583+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:13:07.586+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:07.585+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:07.594+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:07.609+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:07.608+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:13:07.620+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:07.620+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:13:07.638+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.061 seconds
+[2026-04-07T05:13:39.136+0530] {processor.py:186} INFO - Started process (PID=11304) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:39.138+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:13:39.141+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:39.141+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:39.152+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:13:39.166+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:39.165+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:13:39.176+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:13:39.175+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:13:39.291+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.165 seconds
+[2026-04-07T05:14:13.892+0530] {processor.py:186} INFO - Started process (PID=11350) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:14:13.893+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:14:13.895+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:13.894+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:14:14.003+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:14:14.013+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:14.013+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:14:14.021+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:14:14.021+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:14:14.038+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.152 seconds
+[2026-04-07T05:17:18.249+0530] {processor.py:186} INFO - Started process (PID=11526) to work on /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:17:18.250+0530] {processor.py:914} INFO - Processing file /home/ubantu/airflow/dags/zombie_experiment.py for tasks to queue
+[2026-04-07T05:17:18.252+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:18.252+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:17:18.261+0530] {processor.py:925} INFO - DAG(s) 'zombie_experiment' retrieved from /home/ubantu/airflow/dags/zombie_experiment.py
+[2026-04-07T05:17:18.287+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:18.287+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-04-07T05:17:18.303+0530] {logging_mixin.py:190} INFO - [2026-04-07T05:17:18.303+0530] {dag.py:4180} INFO - Setting next_dagrun for zombie_experiment to None, run_after=None
+[2026-04-07T05:17:18.323+0530] {processor.py:208} INFO - Processing /home/ubantu/airflow/dags/zombie_experiment.py took 0.080 seconds
