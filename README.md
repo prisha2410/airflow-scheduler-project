@@ -3,7 +3,6 @@
 [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-2.10.3-017CEE?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![Course](https://img.shields.io/badge/Course-Systems%20Engineering%20%26%20Design-6f42c1)](.)
 [![April 2026](https://img.shields.io/badge/April-2026-brightgreen)](.)
 
 > **Deep-dive reverse engineering of the Apache Airflow Scheduler** — tracing the complete execution path through source code, identifying four key architectural decisions, mapping six CS theory concepts, and running three controlled experiments with real measured data.
