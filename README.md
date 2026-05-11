@@ -54,7 +54,7 @@ The system was installed and run in **standalone mode** on Ubuntu 24.04. The Air
 <img width="923" height="964" alt="Image" src="https://github.com/user-attachments/assets/8cb72079-158e-41ec-b03e-190873b2f97c" />
 *Figure 1 — Airflow UI at `localhost:8080` showing a live installation with experiment DAGs*
 
-![Project folder structure](logs/screenshots/fig2_folder_structure.png)
+<img width="890" height="227" alt="Image" src="https://github.com/user-attachments/assets/6af9931a-97ea-4eff-a7af-d4de26200355" />
 *Figure 2 — Terminal: project folder structure (`ls ~/airflow-scheduler-project/`)*
 
 | Property | Value |
@@ -125,18 +125,18 @@ flowchart TD
 
 #### `scheduler_job_runner.py` — Lines 1057, 1211, 1626
 
-![scheduler_job_runner.py:1057](logs/screenshots/fig3_scheduler_1057.png)
+<img width="1079" height="965" alt="Image" src="https://github.com/user-attachments/assets/d45356c9-2c59-4e87-b770-9cfddf96371f" />
 *Figure 3 — `scheduler_job_runner.py:1057` — `_run_scheduler_loop_iteration()` entry point*
 
-![scheduler_job_runner.py:1211](logs/screenshots/fig4_scheduler_1211.png)
+<img width="1079" height="965" alt="Image" src="https://github.com/user-attachments/assets/343f24c4-1890-468f-94f0-9d066365b62e" />
 *Figure 4 — `scheduler_job_runner.py:1211` — `_schedule_dag_run()` evaluates task eligibility*
 
-![scheduler_job_runner.py:1626](logs/screenshots/fig5_scheduler_1626.png)
+<img width="1079" height="965" alt="Image" src="https://github.com/user-attachments/assets/7143ffc5-d731-4c30-9b46-f98cd3b7b095" />
 *Figure 5 — `scheduler_job_runner.py:1626` — `_executor_to_queued()` submits tasks to executor*
 
 #### `local_task_job_runner.py` — Line 266
 
-![local_task_job_runner.py:266](logs/screenshots/fig6_local_task_266.png)
+<img width="1079" height="965" alt="Image" src="https://github.com/user-attachments/assets/509c57b2-3158-4524-9793-fa84b1912e12" />
 *Figure 6 — `local_task_job_runner.py:266` — return code `-9` fast crash detection path*
 
 ### Full Execution Path
@@ -228,18 +228,18 @@ Three controlled experiments were run on Ubuntu 24.04 (HP Victus Gaming Laptop),
 
 **DAG:** `dags/latency_experiment.py` — task logs a timestamp on start; `SCHEDULING_LAG` is computed by comparing `execution_date` with actual start time across 12 runs.
 
-![latency_experiment DAG code](logs/screenshots/fig7_latency_dag_code.png)
+<img width="559" height="519" alt="Image" src="https://github.com/user-attachments/assets/463158b6-4c94-4f92-8261-f0696c681e9c" />
 *Figure 7 — `latency_experiment` DAG code — task logs timestamp and computes `SCHEDULING_LAG`*
 
 #### Results
 
-![Airflow UI — Grid view 12 runs](logs/screenshots/fig8_latency_grid_12runs.png)
+<img width="1860" height="575" alt="Image" src="https://github.com/user-attachments/assets/a9dad584-b036-4f17-b9f3-62e25bac65bf" />
 *Figure 8 — Airflow UI Grid view showing 12 successful runs of `latency_experiment`*
 
-![Task log — SCHEDULING_LAG value](logs/screenshots/fig9_latency_lag_log.png)
+<img width="919" height="118" alt="Image" src="https://github.com/user-attachments/assets/56e01454-a242-4e59-9d7b-1e2b856c277e" />
 *Figure 9 — Task log showing `SCHEDULING_LAG` value (~63 seconds)*
 
-![Terminal — raw measurements](logs/screenshots/fig10_latency_raw_data.png)
+<img width="1858" height="606" alt="Image" src="https://github.com/user-attachments/assets/a4553def-9c90-48bf-ad06-a72fe958f349" />
 *Figure 10 — Terminal: all 12 raw measurements from `experiment1_results.txt`*
 
 #### Data
@@ -261,21 +261,21 @@ Three controlled experiments were run on Ubuntu 24.04 (HP Victus Gaming Laptop),
 
 **DAG:** `dags/zombie_experiment.py` — task sleeps 60 seconds, subprocess was killed with `kill -9`.
 
-![zombie_experiment DAG code](logs/screenshots/fig11_zombie_dag_code.png)
+<img width="662" height="789" alt="Image" src="https://github.com/user-attachments/assets/1f39fddb-46c1-4a03-9864-736b5b026d16" />
 *Figure 11 — `zombie_experiment` DAG code — task sleeps 60s to allow time to send SIGKILL*
 
 #### Results
 
-![zombie_task RUNNING](logs/screenshots/fig12_zombie_running.png)
+<img width="1860" height="575" alt="Image" src="https://github.com/user-attachments/assets/f117bc5b-67ac-4968-bf80-035359c845a0" />
 *Figure 12 — Airflow UI showing `zombie_task` in RUNNING state before the kill*
 
-![kill -9 command](logs/screenshots/fig13_kill_command.png)
+<img width="913" height="79" alt="Image" src="https://github.com/user-attachments/assets/b89ec17b-baaa-4424-a86b-6150424ed0cd" />
 *Figure 13 — Terminal: `kill -9` command targeting the task subprocess PID*
 
-![Task log — return code -9, 535ms](logs/screenshots/fig14_zombie_log_535ms.png)
+<img width="1861" height="185" alt="Image" src="https://github.com/user-attachments/assets/6315db63-49da-447e-bd92-5c74a2f0c350" />
 *Figure 14 — Task log: `{local_task_job_runner.py:266}` — return code `-9`, crash-to-FAILED: **535ms***
 
-![zombie_task FAILED](logs/screenshots/fig15_zombie_failed_ui.png)
+<img width="1860" height="575" alt="Image" src="https://github.com/user-attachments/assets/bff5f160-7a1e-4e0c-a3e4-d0c73ea881c9" />
 *Figure 15 — Airflow UI: `zombie_task` flipped to FAILED immediately after kill*
 
 #### Data
@@ -297,18 +297,18 @@ Three controlled experiments were run on Ubuntu 24.04 (HP Victus Gaming Laptop),
 
 **Method:** Python script generated 50 additional DAG files (`dag_0.py` through `dag_49.py`), making 51 total. Parse intervals were extracted from scheduler logs before and after loading.
 
-![DAG generator script](logs/screenshots/fig16_dag_generator_script.png)
+<img width="922" height="237" alt="Image" src="https://github.com/user-attachments/assets/07b0dfae-d713-4dbb-af93-f3b6d09ebcb9" />
 *Figure 16 — Python script that generated 50 DAG files programmatically*
 
 #### Results
 
-![ls dags/ | wc -l = 51](logs/screenshots/fig17_ls_51_dags.png)
+<img width="929" height="78" alt="Image" src="https://github.com/user-attachments/assets/cbf28e22-b409-4d0a-8fc2-cd9962e3afde" />
 *Figure 17 — Terminal: `ls dags/ | wc -l` confirming 51 DAG files loaded*
 
-![All 51 DAGs in Airflow UI](logs/screenshots/fig18_all_51_dags_ui.png)
+<img width="1856" height="1050" alt="Image" src="https://github.com/user-attachments/assets/1118e203-d691-4450-965b-83038d910e0a" />
 *Figure 18 — Airflow UI: all 51 DAGs visible in the DAG list*
 
-![experiment3_results.txt](logs/screenshots/fig19_experiment3_results.png)
+<img width="1856" height="669" alt="Image" src="https://github.com/user-attachments/assets/08c72949-adee-489f-a5db-325db6f83a05" />
 *Figure 19 — Terminal: `experiment3_results.txt` showing before/after parse interval data*
 
 #### Data
