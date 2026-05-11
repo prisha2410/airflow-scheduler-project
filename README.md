@@ -51,7 +51,7 @@ airflow-scheduler-project/
 
 The system was installed and run in **standalone mode** on Ubuntu 24.04. The Airflow web UI was confirmed live at `localhost:8080` with experiment DAGs visible.
 
-![Airflow UI — DAG list](logs/screenshots/fig1_airflow_ui_dag_list.png)
+<img width="923" height="964" alt="Image" src="https://github.com/user-attachments/assets/8cb72079-158e-41ec-b03e-190873b2f97c" />
 *Figure 1 — Airflow UI at `localhost:8080` showing a live installation with experiment DAGs*
 
 ![Project folder structure](logs/screenshots/fig2_folder_structure.png)
