@@ -15,15 +15,6 @@
 
 ---
 
-## 👥 Team
-
-| Name | Contribution |
-|---|---|
-| Prisha Khalasi | Source code analysis, Experiments 1 & 2 |
-| Aman Choudhary | Architecture tracing, Experiment 3, Report |
-
----
-
 ## 📁 Repository Structure
 
 ```
